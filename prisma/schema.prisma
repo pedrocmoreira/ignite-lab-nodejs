@@ -13,10 +13,10 @@ datasource db {
 model Notification {
   id          String    @id
   recipientId String
-  constent    String
+  content     String
   category    String
   readAt      DateTime?
   createdAt   DateTime  @default(now())
 
-  @@index([recipientId])
+  @@index([recipientId]) //Aqui é como se fosse uma chave estrangeira
 }
