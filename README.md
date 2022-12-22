@@ -9,7 +9,9 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
+- [ ] Adicionar testes de código
 - [ ] Documentação com swagger
+
 
 ## 💻 Pré-requisitos
 
